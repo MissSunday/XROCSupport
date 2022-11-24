@@ -1,0 +1,22 @@
+{
+  "name": "XROCSupport",
+  "version": "0.1.0",
+  "summary": "A short description of XROCSupport.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ext.wangxiaoran3/XROCSupport",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ext.wangxiaoran3": "ext.wangxiaoran3@jd.com"
+  },
+  "source": {
+    "git": "https://github.com/ext.wangxiaoran3/XROCSupport.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "XROCSupport/Classes/**/*"
+}

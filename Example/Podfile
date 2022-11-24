@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XROCSupport_Example' do
+  pod 'XROCSupport', :path => '../'
+
+  target 'XROCSupport_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

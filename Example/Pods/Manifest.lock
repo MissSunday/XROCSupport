@@ -1,0 +1,16 @@
+PODS:
+  - XROCSupport (0.1.0)
+
+DEPENDENCIES:
+  - XROCSupport (from `../`)
+
+EXTERNAL SOURCES:
+  XROCSupport:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XROCSupport: 3d7e4d3de061f3a4a05273327c4939f392ae17a3
+
+PODFILE CHECKSUM: f6db3e86677c3ec6216610d3b395b384d2f031c4
+
+COCOAPODS: 1.11.2
