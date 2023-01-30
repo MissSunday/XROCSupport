@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.2.0'
-  s.summary          = '公有库使用测试'
+  s.version          = '0.3.0'
+  s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
   s.homepage         = 'https://github.com/MissSunday/XROCSupport'
@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   #   'XROCSupport' => ['XROCSupport/Assets/*.png']
   # }
 
-  s.public_header_files = 'XROCSupport/Classes/*.{h}'
+  #s.public_header_files = 'XROCSupport/Classes/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
