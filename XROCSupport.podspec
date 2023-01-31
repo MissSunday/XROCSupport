@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '0.5.0'
+    s.version          = '0.5.1'
     s.summary          = '公有库使用'
     s.description      = '创建、上传、pod、打包、脚本等'
     
@@ -31,15 +31,15 @@ Pod::Spec.new do |s|
     
     s.subspec 'Base' do |ss|
         
-        ss.source_files = 'XROCSupport/Classes/Base/*'
         ss.dependency 'XROCSupport/A'
+        ss.source_files = 'XROCSupport/Classes/Base/*'
         
     end
     
     s.subspec 'Category' do |ss|
         
-        ss.source_files = 'XROCSupport/Classes/Category/*'
         ss.dependency 'XROCSupport/A'
+        ss.source_files = 'XROCSupport/Classes/Category/*'
         
     end
     
