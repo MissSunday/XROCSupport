@@ -16,6 +16,7 @@
 #import "XRTool.h"
 #import "NSObject+Property.h"
 #import "NSString+STRegex.h"
+#import "UIFont+XRScale.h"
 #import "UIImage+ReColor.h"
 
 FOUNDATION_EXPORT double XROCSupportVersionNumber;

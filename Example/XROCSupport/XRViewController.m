@@ -17,9 +17,14 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    XR_Scale(12);
+	
     
+    XR_Scale(12);
+    CGFloat a = kNavHeight;
+    NSLog(@"--%f",a);
+    
+    UIFont *f = [UIFont ScaleFontOfSize:12];
+    NSLog(@"%@",f);
 }
 
 - (void)didReceiveMemoryWarning

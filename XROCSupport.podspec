@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.4.5'
+  s.version          = '0.4.6'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
