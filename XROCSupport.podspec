@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
@@ -21,13 +21,29 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'XROCSupport/Classes/**/*'
+  s.source_files = 'XROCSupport/Classes/XROCSupport.h'
   
+  s.subspec 'Tools' do |ss|
+      
+      ss.source_files = 'XROCSupport/Tools/*.{h,m}'
+      
+  end
+  s.subspec 'Base' do |ss|
+      
+      ss.source_files = 'XROCSupport/Base/*.{h,m}'
+      
+  end
+  
+  s.subspec 'Category' do |ss|
+      
+      ss.source_files = 'XROCSupport/Category/*.{h,m}'
+      
+  end
   # s.resource_bundles = {
   #   'XROCSupport' => ['XROCSupport/Assets/*.png']
   # }
 
-  #s.public_header_files = 'XROCSupport/Classes/*.{h}'
+  # s.public_header_files = 'XROCSupport/Classes/*.{h}'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
