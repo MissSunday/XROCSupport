@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.4.7'
+  s.version          = '0.4.8'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
@@ -22,16 +22,16 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '9.0'
 
   s.source_files = 'XROCSupport/Classes/XROCSupport.h'
-  
+  s.public_header_files = 'XROCSupport/Classes/**/*.h'
   
   s.subspec 'Base' do |ss|
       
       ss.source_files = 'XROCSupport/Classes/Base/*.{h,m}'
-      ##ss.public_header_files = 'XROCSupport/Classes/Base/XRPCH.h'
+      
   end
   
   s.subspec 'Category' do |ss|
-      ss.source_files = 'XROCSupport/Classes/Base/XRPCH.h'
+      
       ss.source_files = 'XROCSupport/Classes/Category/*.{h,m}'
 
   end
