@@ -1,22 +1,37 @@
 {
   "name": "XROCSupport",
-  "version": "0.1.0",
-  "summary": "A short description of XROCSupport.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/ext.wangxiaoran3/XROCSupport",
+  "version": "0.4.3",
+  "summary": "公有库使用",
+  "description": "创建、上传、pod、打包、脚本等",
+  "homepage": "https://github.com/MissSunday/XROCSupport",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "ext.wangxiaoran3": "ext.wangxiaoran3@jd.com"
+    "MissSunday": "963217127@qq.com"
   },
   "source": {
-    "git": "https://github.com/ext.wangxiaoran3/XROCSupport.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/MissSunday/XROCSupport.git",
+    "tag": "0.4.3"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "9.0"
   },
-  "source_files": "XROCSupport/Classes/**/*"
+  "source_files": "XROCSupport/Classes/XROCSupport.h",
+  "subspecs": [
+    {
+      "name": "Tools",
+      "source_files": "XROCSupport/Tools/**/*",
+      "public_header_files": "XROCSupport/Tools/XRPCH.h"
+    },
+    {
+      "name": "Base",
+      "source_files": "XROCSupport/Base/**/*"
+    },
+    {
+      "name": "Category",
+      "source_files": "XROCSupport/Category/**/*"
+    }
+  ]
 }

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.4.2'
+  s.version          = '0.4.3'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
@@ -26,7 +26,8 @@ Pod::Spec.new do |s|
   s.subspec 'Tools' do |ss|
       
       ss.source_files = 'XROCSupport/Tools/**/*'
-   
+      ss.public_header_files = 'XROCSupport/Tools/XRPCH.h'
+      
   end
   s.subspec 'Base' do |ss|
       
