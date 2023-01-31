@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.4.3'
+  s.version          = '0.4.4'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
@@ -45,6 +45,6 @@ Pod::Spec.new do |s|
   # }
 
   # s.public_header_files = 'XROCSupport/Classes/*.{h}'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit', 'ImageIO','Accelerate','Foundation'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

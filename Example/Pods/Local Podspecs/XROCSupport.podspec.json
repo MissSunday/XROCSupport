@@ -1,6 +1,6 @@
 {
   "name": "XROCSupport",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "summary": "公有库使用",
   "description": "创建、上传、pod、打包、脚本等",
   "homepage": "https://github.com/MissSunday/XROCSupport",
@@ -13,12 +13,18 @@
   },
   "source": {
     "git": "https://github.com/MissSunday/XROCSupport.git",
-    "tag": "0.4.3"
+    "tag": "0.4.4"
   },
   "platforms": {
     "ios": "9.0"
   },
   "source_files": "XROCSupport/Classes/XROCSupport.h",
+  "frameworks": [
+    "UIKit",
+    "ImageIO",
+    "Accelerate",
+    "Foundation"
+  ],
   "subspecs": [
     {
       "name": "Tools",
