@@ -14,13 +14,16 @@
 #import "XRPCH.h"
 #import "XRTool.h"
 
+
+
+
 //Base
 #import "XRBaseViewController.h"
 
 //Category
 #import "NSObject+Property.h"
 #import "NSString+STRegex.h"
-#import "UIFont+XRScale.h"
+//#import "UIFont+XRScale.h"
 #import "UIImage+ReColor.h"
 
 

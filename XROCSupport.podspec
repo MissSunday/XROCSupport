@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'XROCSupport'
-  s.version          = '0.4.4'
+  s.version          = '0.4.5'
   s.summary          = '公有库使用'
   s.description      = '创建、上传、pod、打包、脚本等'
 
@@ -23,22 +23,17 @@ Pod::Spec.new do |s|
 
   s.source_files = 'XROCSupport/Classes/XROCSupport.h'
   
-  s.subspec 'Tools' do |ss|
-      
-      ss.source_files = 'XROCSupport/Tools/**/*'
-      ss.public_header_files = 'XROCSupport/Tools/XRPCH.h'
-      
-  end
+  
   s.subspec 'Base' do |ss|
       
-      ss.source_files = 'XROCSupport/Base/**/*'
-      
+      ss.source_files = 'XROCSupport/Classes/Base/*.{h,m}'
+      ##ss.public_header_files = 'XROCSupport/Classes/Base/XRPCH.h'
   end
   
   s.subspec 'Category' do |ss|
-      
-      ss.source_files = 'XROCSupport/Category/**/*'
-      
+
+      ss.source_files = 'XROCSupport/Classes/Category/*.{h,m}'
+
   end
   # s.resource_bundles = {
   #   'XROCSupport' => ['XROCSupport/Assets/*.png']

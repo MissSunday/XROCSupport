@@ -7,7 +7,7 @@
 //
 
 #import "XRViewController.h"
-
+#import "XROCSupport.h"
 @interface XRViewController ()
 
 @end
@@ -18,6 +18,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    XR_Scale(12);
+    
 }
 
 - (void)didReceiveMemoryWarning
