@@ -6,7 +6,7 @@
 //
 
 #import "XRBaseViewController.h"
-
+#import "XRPCH.h"
 @interface XRBaseViewController ()<UINavigationControllerDelegate,UIGestureRecognizerDelegate>
 
 @end

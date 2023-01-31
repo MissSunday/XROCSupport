@@ -1,9 +1,9 @@
 PODS:
-  - XROCSupport (0.4.6):
-    - XROCSupport/Base (= 0.4.6)
-    - XROCSupport/Category (= 0.4.6)
-  - XROCSupport/Base (0.4.6)
-  - XROCSupport/Category (0.4.6)
+  - XROCSupport (0.4.7):
+    - XROCSupport/Base (= 0.4.7)
+    - XROCSupport/Category (= 0.4.7)
+  - XROCSupport/Base (0.4.7)
+  - XROCSupport/Category (0.4.7)
 
 DEPENDENCIES:
   - XROCSupport (from `../`)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XROCSupport: 7c06a093a799d5365de90483ffc0702cf9e9fac4
+  XROCSupport: 1f22f55fa72d93df2d1af750d2a4805248596b6d
 
 PODFILE CHECKSUM: f6db3e86677c3ec6216610d3b395b384d2f031c4
 
