@@ -10,17 +10,10 @@
 #endif
 #endif
 
-#import "XRBaseViewController.h"
-#import "XRPCH.h"
-#import "XRTool.h"
-#import "NSObject+Property.h"
-#import "NSString+STRegex.h"
-#import "UIFont+XRScale.h"
-#import "UIImage+ReColor.h"
 #import "XROCSupport.h"
-#import "XRBaseViewController.h"
 #import "XRPCH.h"
 #import "XRTool.h"
+#import "XRBaseViewController.h"
 #import "NSObject+Property.h"
 #import "NSString+STRegex.h"
 #import "UIFont+XRScale.h"

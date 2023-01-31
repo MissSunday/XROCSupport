@@ -7,43 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		079E417CE6FBBB817A57F706D4E25E4C /* UIImage+ReColor.m in Sources */ = {isa = PBXBuildFile; fileRef = FEA067F1C1A78E4E5E41D3BCE22422C5 /* UIImage+ReColor.m */; };
-		0F779A79A44D1535383A6E7564692FCD /* NSObject+Property.h in Headers */ = {isa = PBXBuildFile; fileRef = B722AF3255C3C28D1BF55D46A9A1C06A /* NSObject+Property.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1A49750DDBDB1F40346358C309645485 /* XRBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2639C49A120753272D17362943391B45 /* XRBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		22794A5EEB6F28EE5D759C112232913E /* XROCSupport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37CB51367375BB723C22822BC20759CC /* XROCSupport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		36A5FF4AABC357DA678654BA99164B9C /* NSString+STRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B90C89B9C74EB197B3834A956C0C24 /* NSString+STRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		509A669F06DA6BE89B74A7B62E5732D8 /* XRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D0E6AD93F9171A5DBC353830DD351C22 /* XRBaseViewController.m */; };
+		0E45D30485DDF082BAD023861C430852 /* XROCSupport-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F17CF75B2F1113ADBD3877CEA5A4444 /* XROCSupport-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		275FCB413F9D8C462E8D7DF7C15215B4 /* XROCSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1314BFD7A99A59D109A328E2EA34DF1D /* XROCSupport-dummy.m */; };
+		28FE5193ABFE8BE0D7C3570132A5F601 /* UIImage+ReColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9511BDC9CE1666AA852938B856F254CB /* UIImage+ReColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33084AB3DD7F3A35E97C3F92E309212C /* XRBaseViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D5A0C15ADCE272023F83791B2CDB263 /* XRBaseViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		357B2E0D6D0CAF4790C427D1E3E590A8 /* XRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = F7ECC203333115643ACBB6DA3BA09D25 /* XRTool.m */; };
+		55DD8467FD30E0BB40BC3CE7BBF9BA8F /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 426CB11C92A622085461F5B1572EC132 /* NSString+STRegex.m */; };
+		5702CEBC1815A3BD29640062B87EAE65 /* UIFont+XRScale.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D269FDEB071D36A742511B3481545A /* UIFont+XRScale.m */; };
 		59F9B35E93BCB651803261EFFB98B1AD /* Pods-XROCSupport_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78E66B65490A6C8F9D6145386473F60B /* Pods-XROCSupport_Example-dummy.m */; };
+		67115C5E43071ED1898AE5A7750069F9 /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA7AC806109415FD869AE23B9ED0FD /* NSObject+Property.m */; };
 		705D18867B3EA1761A5071DD362B1697 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		813323059444E99BBAE9F56D48DEF956 /* XRTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D82B531E39F12DAFDD39D92A3AFBCA0 /* XRTool.m */; };
 		888C39E4119AEF6F8A5D6CE6841AAB8B /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FA36745B91BADB30F2928C876E58F12 /* ImageIO.framework */; };
 		89DFC8CBE2240D3957D1D56429B3BE57 /* Pods-XROCSupport_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FEEFAB40B713CEF38654844B44B8136D /* Pods-XROCSupport_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		962706E1966248EAD634C4F06E43CE01 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = EDA512D4C6AEF3D23E79673031769BF2 /* NSString+STRegex.m */; };
+		8A73EBF71030D2824E897BF4941FF06C /* XRBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62710E25C8456942665909C463B50C8A /* XRBaseViewController.m */; };
+		8F5D3773CA58ED47A3B17BCDAB764200 /* XROCSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B7E66E6CFF008FC041487EE0031CCA4B /* XROCSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9766A0E3395F0EBA54271F532F65A324 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B1295C1F56AFEC16278E0EE3AE38BA2 /* UIKit.framework */; };
-		9A0541AA52672E396D1B5F6A72F913A3 /* XROCSupport-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D8AA32EB58C5F19847153482F44D4A3 /* XROCSupport-dummy.m */; };
-		A5499B7BD2AD680822697AD36B76734C /* NSObject+Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 751B8E98A115F1E869346C6C5EC165D3 /* NSObject+Property.m */; };
+		97F5F7196939CADFD86566854779677D /* NSString+STRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = BC933EAD0D805007A0990571FBB57DB9 /* NSString+STRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A726ADACE7ECA4FD97F4C2FBED4511F6 /* XRTool.h in Headers */ = {isa = PBXBuildFile; fileRef = C7F03ACA1F3C542C28351103BFC7FA68 /* XRTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A8C8F58EF7CC8F3B526ACA8D852B28C8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		AC198D93B299D4B3C5DDE175D1739D08 /* UIFont+XRScale.m in Sources */ = {isa = PBXBuildFile; fileRef = E8DF3F71C9D1383E8F57F6B2128C77FF /* UIFont+XRScale.m */; };
-		AC3137F8E99AE8DB5E868BD1D8005E47 /* XRTool.h in Headers */ = {isa = PBXBuildFile; fileRef = D469FB0D71AF0891C4EE58282AC1F20B /* XRTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A99246495E6F364E81E790FDCA59CF51 /* UIImage+ReColor.m in Sources */ = {isa = PBXBuildFile; fileRef = DA2E6D1E329BE168B8FED1E47B0B58CE /* UIImage+ReColor.m */; };
 		C5065B5FF8C6D99668937056AE4AB23E /* Pods-XROCSupport_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18376BED18353E80E7A212C80C681BCD /* Pods-XROCSupport_Tests-dummy.m */; };
+		C603FE332FEA951047E9CFC50DD3B029 /* XRPCH.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E0F3195E87C119F27FAC89F2EE870AF /* XRPCH.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CE4D03DBDE2150E71E161C1025F5FCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */; };
-		DD913E78D9B0F740F5DBB627FC47BA55 /* UIFont+XRScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AD7E4DA2D7C9F8553E8F80B911C82CB /* UIFont+XRScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E031A2A8B437A1F5A7AFE429873C1B38 /* XROCSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = B1E117FC80FBEE356C8C6A3D7F6DB1DB /* XROCSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E21633DAF2CF889AB7BBE72DD1E4AAC6 /* UIImage+ReColor.h in Headers */ = {isa = PBXBuildFile; fileRef = E6CDA0E8DDCF1B32127E0014B333F14A /* UIImage+ReColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1058F82308DD949A009462E03C531BF /* NSObject+Property.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ABAA9DE2197E9AEC5FE0A52FDA610CA /* NSObject+Property.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D945F553D730F93194A83C2AE6BC1758 /* UIFont+XRScale.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E078AE967E994B97F5A8D1D00818C2A /* UIFont+XRScale.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E4AE60D19F2B73BB73C227AF561250BB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 000B87A61B1B2D64B1690E1523222DD6 /* Accelerate.framework */; };
-		EAF78E54F0FA00082067DB16B1C91F26 /* XRPCH.h in Headers */ = {isa = PBXBuildFile; fileRef = 59460E13A64BBDAC6F229380D587BFF5 /* XRPCH.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F2AAF5AD10F37EC78D764D9366874FC3 /* Pods-XROCSupport_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B8EE9D25378DA4E78E4B4EE0B141FC9 /* Pods-XROCSupport_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C8C3D227EEE3E6B590634A8442B39996 /* PBXContainerItemProxy */ = {
+		807E0760EDA3DBB0A8B229B76B1DD6A1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2A60C80E1D26B549B7FA2C2CE6AC1408;
 			remoteInfo = XROCSupport;
 		};
-		F8B4F45F4258CC4A59E938827431A429 /* PBXContainerItemProxy */ = {
+		F45CC1F2D34DE0A1C0B180D591B090F6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -55,52 +55,52 @@
 /* Begin PBXFileReference section */
 		000B87A61B1B2D64B1690E1523222DD6 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Accelerate.framework; sourceTree = DEVELOPER_DIR; };
 		04099617DC1F8D4E3E509C4515428674 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0D82B531E39F12DAFDD39D92A3AFBCA0 /* XRTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRTool.m; path = XROCSupport/Classes/Base/XRTool.m; sourceTree = "<group>"; };
 		124A1ECF61C55D4E3E8C6597754C9C71 /* Pods-XROCSupport_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XROCSupport_Tests.modulemap"; sourceTree = "<group>"; };
+		1314BFD7A99A59D109A328E2EA34DF1D /* XROCSupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XROCSupport-dummy.m"; sourceTree = "<group>"; };
 		18376BED18353E80E7A212C80C681BCD /* Pods-XROCSupport_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XROCSupport_Tests-dummy.m"; sourceTree = "<group>"; };
-		1CB685D08F024BF05660540DF8E3CA11 /* XROCSupport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XROCSupport.modulemap; sourceTree = "<group>"; };
 		227590EA6EAA8C866AB13EF06DF7CAE3 /* Pods-XROCSupport_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XROCSupport_Example"; path = Pods_XROCSupport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2639C49A120753272D17362943391B45 /* XRBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRBaseViewController.h; path = XROCSupport/Classes/Base/XRBaseViewController.h; sourceTree = "<group>"; };
+		245CAA7A75F64D30F5B5820F583AF269 /* XROCSupport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XROCSupport.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2699B11FC33799BBEAFCA1ED7B0EEF65 /* Pods-XROCSupport_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XROCSupport_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		2B8EE9D25378DA4E78E4B4EE0B141FC9 /* Pods-XROCSupport_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XROCSupport_Example-umbrella.h"; sourceTree = "<group>"; };
-		304AE652396748D06149240AEFF1AAE1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		37CB51367375BB723C22822BC20759CC /* XROCSupport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XROCSupport-umbrella.h"; sourceTree = "<group>"; };
-		3AD7E4DA2D7C9F8553E8F80B911C82CB /* UIFont+XRScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+XRScale.h"; path = "XROCSupport/Classes/Category/UIFont+XRScale.h"; sourceTree = "<group>"; };
+		3D5A0C15ADCE272023F83791B2CDB263 /* XRBaseViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRBaseViewController.h; path = XROCSupport/Classes/Base/XRBaseViewController.h; sourceTree = "<group>"; };
+		3E0F3195E87C119F27FAC89F2EE870AF /* XRPCH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRPCH.h; path = XROCSupport/Classes/Tools/XRPCH.h; sourceTree = "<group>"; };
 		3F166F9B60D3A4EBE22BB893A26F2311 /* Pods-XROCSupport_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-XROCSupport_Example-frameworks.sh"; sourceTree = "<group>"; };
+		3FFA20CEBD74925546BF20A2E342BDE7 /* XROCSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XROCSupport-prefix.pch"; sourceTree = "<group>"; };
+		426CB11C92A622085461F5B1572EC132 /* NSString+STRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+STRegex.m"; path = "XROCSupport/Classes/Category/NSString+STRegex.m"; sourceTree = "<group>"; };
+		51DD71D1A456B00F9077912645AAB857 /* XROCSupport.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XROCSupport.modulemap; sourceTree = "<group>"; };
 		55FC56225C27BAFFC015DB32B6743940 /* Pods-XROCSupport_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XROCSupport_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		582C408B584E25DF39513821781361ED /* Pods-XROCSupport_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XROCSupport_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		59460E13A64BBDAC6F229380D587BFF5 /* XRPCH.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRPCH.h; path = XROCSupport/Classes/Base/XRPCH.h; sourceTree = "<group>"; };
+		59A81812FD20F3E468803B18EC0D4C37 /* XROCSupport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XROCSupport-Info.plist"; sourceTree = "<group>"; };
+		62710E25C8456942665909C463B50C8A /* XRBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRBaseViewController.m; path = XROCSupport/Classes/Base/XRBaseViewController.m; sourceTree = "<group>"; };
 		6756316DB6A37DF981D4A4D7932DC0BC /* Pods-XROCSupport_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XROCSupport_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		751B8E98A115F1E869346C6C5EC165D3 /* NSObject+Property.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Property.m"; path = "XROCSupport/Classes/Category/NSObject+Property.m"; sourceTree = "<group>"; };
-		76B90C89B9C74EB197B3834A956C0C24 /* NSString+STRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+STRegex.h"; path = "XROCSupport/Classes/Category/NSString+STRegex.h"; sourceTree = "<group>"; };
+		69F513932A00F3348D0B6A8CA1292ECA /* XROCSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XROCSupport.debug.xcconfig; sourceTree = "<group>"; };
+		6F17CF75B2F1113ADBD3877CEA5A4444 /* XROCSupport-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XROCSupport-umbrella.h"; sourceTree = "<group>"; };
+		6FAA7AC806109415FD869AE23B9ED0FD /* NSObject+Property.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Property.m"; path = "XROCSupport/Classes/Category/NSObject+Property.m"; sourceTree = "<group>"; };
 		78E66B65490A6C8F9D6145386473F60B /* Pods-XROCSupport_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XROCSupport_Example-dummy.m"; sourceTree = "<group>"; };
-		7A94C604CDE3565143DECEF91AF4E0D3 /* XROCSupport-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XROCSupport-Info.plist"; sourceTree = "<group>"; };
 		7FA36745B91BADB30F2928C876E58F12 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
 		802F2A45EE30B6A90EA25ED2848823D5 /* Pods-XROCSupport_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XROCSupport_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		803AD423137965B7431ABDBC68B847A6 /* XROCSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XROCSupport.release.xcconfig; sourceTree = "<group>"; };
-		8B9998ACFE30E838D31AF04E0B1884F6 /* XROCSupport.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XROCSupport.debug.xcconfig; sourceTree = "<group>"; };
+		88564B075BDB2AD5822B227909F3EA11 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8BDE8B9985F74AFED6A4B81F41809D50 /* Pods-XROCSupport_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XROCSupport_Example.modulemap"; sourceTree = "<group>"; };
-		8F2AE1E9E0C4D1519DDAADE3D51444AA /* XROCSupport.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XROCSupport.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E078AE967E994B97F5A8D1D00818C2A /* UIFont+XRScale.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIFont+XRScale.h"; path = "XROCSupport/Classes/Category/UIFont+XRScale.h"; sourceTree = "<group>"; };
+		92206AFD6B8DCEB0BCB778F311E39D79 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9511BDC9CE1666AA852938B856F254CB /* UIImage+ReColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ReColor.h"; path = "XROCSupport/Classes/Category/UIImage+ReColor.h"; sourceTree = "<group>"; };
+		9ABAA9DE2197E9AEC5FE0A52FDA610CA /* NSObject+Property.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Property.h"; path = "XROCSupport/Classes/Category/NSObject+Property.h"; sourceTree = "<group>"; };
 		9B1295C1F56AFEC16278E0EE3AE38BA2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		9C767024919C902111EC6B3BEF67635A /* Pods-XROCSupport_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XROCSupport_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D8AA32EB58C5F19847153482F44D4A3 /* XROCSupport-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XROCSupport-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B1E117FC80FBEE356C8C6A3D7F6DB1DB /* XROCSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XROCSupport.h; path = XROCSupport/Classes/XROCSupport.h; sourceTree = "<group>"; };
 		B38A4CA1BEC3AD7EE491276013E8E140 /* Pods-XROCSupport_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XROCSupport_Example-Info.plist"; sourceTree = "<group>"; };
-		B3AD62EF9100AA7373113E53A3706EDE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		B722AF3255C3C28D1BF55D46A9A1C06A /* NSObject+Property.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Property.h"; path = "XROCSupport/Classes/Category/NSObject+Property.h"; sourceTree = "<group>"; };
+		B7E66E6CFF008FC041487EE0031CCA4B /* XROCSupport.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XROCSupport.h; path = XROCSupport/Classes/XROCSupport.h; sourceTree = "<group>"; };
+		BC933EAD0D805007A0990571FBB57DB9 /* NSString+STRegex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+STRegex.h"; path = "XROCSupport/Classes/Category/NSString+STRegex.h"; sourceTree = "<group>"; };
+		C2D269FDEB071D36A742511B3481545A /* UIFont+XRScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+XRScale.m"; path = "XROCSupport/Classes/Category/UIFont+XRScale.m"; sourceTree = "<group>"; };
 		C707EBCAED0E14411467D584A25A6B14 /* Pods-XROCSupport_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XROCSupport_Tests-Info.plist"; sourceTree = "<group>"; };
+		C7F03ACA1F3C542C28351103BFC7FA68 /* XRTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRTool.h; path = XROCSupport/Classes/Tools/XRTool.h; sourceTree = "<group>"; };
 		C86F4D617D82512CDF3762E6AD345C4D /* Pods-XROCSupport_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XROCSupport_Tests"; path = Pods_XROCSupport_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D0E6AD93F9171A5DBC353830DD351C22 /* XRBaseViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRBaseViewController.m; path = XROCSupport/Classes/Base/XRBaseViewController.m; sourceTree = "<group>"; };
-		D438BE63E71762AEBC454FEFEE8CBADF /* XROCSupport-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XROCSupport-prefix.pch"; sourceTree = "<group>"; };
-		D469FB0D71AF0891C4EE58282AC1F20B /* XRTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XRTool.h; path = XROCSupport/Classes/Base/XRTool.h; sourceTree = "<group>"; };
+		DA2E6D1E329BE168B8FED1E47B0B58CE /* UIImage+ReColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ReColor.m"; path = "XROCSupport/Classes/Category/UIImage+ReColor.m"; sourceTree = "<group>"; };
+		DBBE0A36E0B1424667B4E77857E935DA /* XROCSupport.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XROCSupport.release.xcconfig; sourceTree = "<group>"; };
 		DFDD26DC49F820BD2DE72F863F262DC5 /* Pods-XROCSupport_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XROCSupport_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E5C51787612822B50A3222C47E571DA4 /* XROCSupport */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XROCSupport; path = XROCSupport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6BF87B3B0F93674D5F39DA3745ABDEA /* Pods-XROCSupport_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XROCSupport_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E6CDA0E8DDCF1B32127E0014B333F14A /* UIImage+ReColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ReColor.h"; path = "XROCSupport/Classes/Category/UIImage+ReColor.h"; sourceTree = "<group>"; };
-		E8DF3F71C9D1383E8F57F6B2128C77FF /* UIFont+XRScale.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIFont+XRScale.m"; path = "XROCSupport/Classes/Category/UIFont+XRScale.m"; sourceTree = "<group>"; };
-		EDA512D4C6AEF3D23E79673031769BF2 /* NSString+STRegex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+STRegex.m"; path = "XROCSupport/Classes/Category/NSString+STRegex.m"; sourceTree = "<group>"; };
-		FEA067F1C1A78E4E5E41D3BCE22422C5 /* UIImage+ReColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ReColor.m"; path = "XROCSupport/Classes/Category/UIImage+ReColor.m"; sourceTree = "<group>"; };
+		F7ECC203333115643ACBB6DA3BA09D25 /* XRTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XRTool.m; path = XROCSupport/Classes/Tools/XRTool.m; sourceTree = "<group>"; };
 		FEEFAB40B713CEF38654844B44B8136D /* Pods-XROCSupport_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XROCSupport_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,31 +135,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		40B3474B1F81649B5510000023407981 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				304AE652396748D06149240AEFF1AAE1 /* LICENSE */,
-				B3AD62EF9100AA7373113E53A3706EDE /* README.md */,
-				8F2AE1E9E0C4D1519DDAADE3D51444AA /* XROCSupport.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		51A8C99B65529C3A81DCB9D3751EAE1A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1CB685D08F024BF05660540DF8E3CA11 /* XROCSupport.modulemap */,
-				9D8AA32EB58C5F19847153482F44D4A3 /* XROCSupport-dummy.m */,
-				7A94C604CDE3565143DECEF91AF4E0D3 /* XROCSupport-Info.plist */,
-				D438BE63E71762AEBC454FEFEE8CBADF /* XROCSupport-prefix.pch */,
-				37CB51367375BB723C22822BC20759CC /* XROCSupport-umbrella.h */,
-				8B9998ACFE30E838D31AF04E0B1884F6 /* XROCSupport.debug.xcconfig */,
-				803AD423137965B7431ABDBC68B847A6 /* XROCSupport.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/XROCSupport";
-			sourceTree = "<group>";
-		};
 		5635735C71D23956E223A3A308983E42 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,17 +156,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		67567C1BA2D283CA4D225905802550A3 /* XROCSupport */ = {
+		6962383C1D80FFAB9AD3E8D6F289A0DE /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B1E117FC80FBEE356C8C6A3D7F6DB1DB /* XROCSupport.h */,
-				F9508811BCDA23C639AFB872AAE13293 /* Base */,
-				8DCC3333AA53788636DD599AE3BE2924 /* Category */,
-				40B3474B1F81649B5510000023407981 /* Pod */,
-				51A8C99B65529C3A81DCB9D3751EAE1A /* Support Files */,
+				88564B075BDB2AD5822B227909F3EA11 /* LICENSE */,
+				92206AFD6B8DCEB0BCB778F311E39D79 /* README.md */,
+				245CAA7A75F64D30F5B5820F583AF269 /* XROCSupport.podspec */,
 			);
-			name = XROCSupport;
-			path = ../..;
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		7BDC849514B29E0190A1949FA5799AD0 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9ABAA9DE2197E9AEC5FE0A52FDA610CA /* NSObject+Property.h */,
+				6FAA7AC806109415FD869AE23B9ED0FD /* NSObject+Property.m */,
+				BC933EAD0D805007A0990571FBB57DB9 /* NSString+STRegex.h */,
+				426CB11C92A622085461F5B1572EC132 /* NSString+STRegex.m */,
+				8E078AE967E994B97F5A8D1D00818C2A /* UIFont+XRScale.h */,
+				C2D269FDEB071D36A742511B3481545A /* UIFont+XRScale.m */,
+				9511BDC9CE1666AA852938B856F254CB /* UIImage+ReColor.h */,
+				DA2E6D1E329BE168B8FED1E47B0B58CE /* UIImage+ReColor.m */,
+			);
+			name = Category;
 			sourceTree = "<group>";
 		};
 		84D106CD7BB5A3AF42171D99763ABDC5 /* Pods-XROCSupport_Tests */ = {
@@ -210,21 +197,6 @@
 			path = "Target Support Files/Pods-XROCSupport_Tests";
 			sourceTree = "<group>";
 		};
-		8DCC3333AA53788636DD599AE3BE2924 /* Category */ = {
-			isa = PBXGroup;
-			children = (
-				B722AF3255C3C28D1BF55D46A9A1C06A /* NSObject+Property.h */,
-				751B8E98A115F1E869346C6C5EC165D3 /* NSObject+Property.m */,
-				76B90C89B9C74EB197B3834A956C0C24 /* NSString+STRegex.h */,
-				EDA512D4C6AEF3D23E79673031769BF2 /* NSString+STRegex.m */,
-				3AD7E4DA2D7C9F8553E8F80B911C82CB /* UIFont+XRScale.h */,
-				E8DF3F71C9D1383E8F57F6B2128C77FF /* UIFont+XRScale.m */,
-				E6CDA0E8DDCF1B32127E0014B333F14A /* UIImage+ReColor.h */,
-				FEA067F1C1A78E4E5E41D3BCE22422C5 /* UIImage+ReColor.m */,
-			);
-			name = Category;
-			sourceTree = "<group>";
-		};
 		BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,15 +205,37 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		C1E8BCB2637DFFAE569588170D6A3AEC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAD29615983263DC128DE67A27199825 /* XROCSupport */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				F8CD81C7E44C986C33ED720A1BD1369D /* Development Pods */,
+				C1E8BCB2637DFFAE569588170D6A3AEC /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				57218EBAA78441C1D498A85C60A5566D /* Products */,
 				E05CEA5CAB734B85F4E2A81A5EF7196D /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DAD29615983263DC128DE67A27199825 /* XROCSupport */ = {
+			isa = PBXGroup;
+			children = (
+				B7E66E6CFF008FC041487EE0031CCA4B /* XROCSupport.h */,
+				F21B4934B92F46C79C9F04AB5D9A8E3B /* A */,
+				EF357EB69642E55ED80F8EFBE5C11C3A /* Base */,
+				7BDC849514B29E0190A1949FA5799AD0 /* Category */,
+				6962383C1D80FFAB9AD3E8D6F289A0DE /* Pod */,
+				E92963C89518800BFD311212F6C4E649 /* Support Files */,
+			);
+			name = XROCSupport;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E05CEA5CAB734B85F4E2A81A5EF7196D /* Targets Support Files */ = {
@@ -270,24 +264,38 @@
 			path = "Target Support Files/Pods-XROCSupport_Example";
 			sourceTree = "<group>";
 		};
-		F8CD81C7E44C986C33ED720A1BD1369D /* Development Pods */ = {
+		E92963C89518800BFD311212F6C4E649 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				67567C1BA2D283CA4D225905802550A3 /* XROCSupport */,
+				51DD71D1A456B00F9077912645AAB857 /* XROCSupport.modulemap */,
+				1314BFD7A99A59D109A328E2EA34DF1D /* XROCSupport-dummy.m */,
+				59A81812FD20F3E468803B18EC0D4C37 /* XROCSupport-Info.plist */,
+				3FFA20CEBD74925546BF20A2E342BDE7 /* XROCSupport-prefix.pch */,
+				6F17CF75B2F1113ADBD3877CEA5A4444 /* XROCSupport-umbrella.h */,
+				69F513932A00F3348D0B6A8CA1292ECA /* XROCSupport.debug.xcconfig */,
+				DBBE0A36E0B1424667B4E77857E935DA /* XROCSupport.release.xcconfig */,
 			);
-			name = "Development Pods";
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XROCSupport";
 			sourceTree = "<group>";
 		};
-		F9508811BCDA23C639AFB872AAE13293 /* Base */ = {
+		EF357EB69642E55ED80F8EFBE5C11C3A /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				2639C49A120753272D17362943391B45 /* XRBaseViewController.h */,
-				D0E6AD93F9171A5DBC353830DD351C22 /* XRBaseViewController.m */,
-				59460E13A64BBDAC6F229380D587BFF5 /* XRPCH.h */,
-				D469FB0D71AF0891C4EE58282AC1F20B /* XRTool.h */,
-				0D82B531E39F12DAFDD39D92A3AFBCA0 /* XRTool.m */,
+				3D5A0C15ADCE272023F83791B2CDB263 /* XRBaseViewController.h */,
+				62710E25C8456942665909C463B50C8A /* XRBaseViewController.m */,
 			);
 			name = Base;
+			sourceTree = "<group>";
+		};
+		F21B4934B92F46C79C9F04AB5D9A8E3B /* A */ = {
+			isa = PBXGroup;
+			children = (
+				3E0F3195E87C119F27FAC89F2EE870AF /* XRPCH.h */,
+				C7F03ACA1F3C542C28351103BFC7FA68 /* XRTool.h */,
+				F7ECC203333115643ACBB6DA3BA09D25 /* XRTool.m */,
+			);
+			name = A;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -301,27 +309,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8AF4AB6A1A1E2E69930649443A0C9D26 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F779A79A44D1535383A6E7564692FCD /* NSObject+Property.h in Headers */,
-				36A5FF4AABC357DA678654BA99164B9C /* NSString+STRegex.h in Headers */,
-				DD913E78D9B0F740F5DBB627FC47BA55 /* UIFont+XRScale.h in Headers */,
-				E21633DAF2CF889AB7BBE72DD1E4AAC6 /* UIImage+ReColor.h in Headers */,
-				1A49750DDBDB1F40346358C309645485 /* XRBaseViewController.h in Headers */,
-				E031A2A8B437A1F5A7AFE429873C1B38 /* XROCSupport.h in Headers */,
-				22794A5EEB6F28EE5D759C112232913E /* XROCSupport-umbrella.h in Headers */,
-				EAF78E54F0FA00082067DB16B1C91F26 /* XRPCH.h in Headers */,
-				AC3137F8E99AE8DB5E868BD1D8005E47 /* XRTool.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		F6A7B419CC91ABC31A7D679CE64E5BC1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				89DFC8CBE2240D3957D1D56429B3BE57 /* Pods-XROCSupport_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6A89C94DFA4D07D758D8BD10F6BE805 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1058F82308DD949A009462E03C531BF /* NSObject+Property.h in Headers */,
+				97F5F7196939CADFD86566854779677D /* NSString+STRegex.h in Headers */,
+				D945F553D730F93194A83C2AE6BC1758 /* UIFont+XRScale.h in Headers */,
+				28FE5193ABFE8BE0D7C3570132A5F601 /* UIImage+ReColor.h in Headers */,
+				33084AB3DD7F3A35E97C3F92E309212C /* XRBaseViewController.h in Headers */,
+				8F5D3773CA58ED47A3B17BCDAB764200 /* XROCSupport.h in Headers */,
+				0E45D30485DDF082BAD023861C430852 /* XROCSupport-umbrella.h in Headers */,
+				C603FE332FEA951047E9CFC50DD3B029 /* XRPCH.h in Headers */,
+				A726ADACE7ECA4FD97F4C2FBED4511F6 /* XRTool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -332,8 +340,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E7510726D102903D7B093313F5A33AB /* Build configuration list for PBXNativeTarget "XROCSupport" */;
 			buildPhases = (
-				8AF4AB6A1A1E2E69930649443A0C9D26 /* Headers */,
-				1C9049451DD409F3AE9C83DCFA609563 /* Sources */,
+				F6A89C94DFA4D07D758D8BD10F6BE805 /* Headers */,
+				1332C2E4B1CA11AAF53F7F3B5CBDB1B0 /* Sources */,
 				1E2BCAA603C96CBCEA5B6CAA837330AB /* Frameworks */,
 				336E28364CDC315E6C41FE3DA2B722DF /* Resources */,
 			);
@@ -358,7 +366,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8866B3F09BB0E9D67948C02CC7660A08 /* PBXTargetDependency */,
+				F28582E6DBFF1558216C61F11D6CF8EC /* PBXTargetDependency */,
 			);
 			name = "Pods-XROCSupport_Example";
 			productName = Pods_XROCSupport_Example;
@@ -377,7 +385,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				8B84048CF14400EB820521D6783EAA55 /* PBXTargetDependency */,
+				7CF195BD752E6D740639196F6264C286 /* PBXTargetDependency */,
 			);
 			name = "Pods-XROCSupport_Tests";
 			productName = Pods_XROCSupport_Tests;
@@ -438,17 +446,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1C9049451DD409F3AE9C83DCFA609563 /* Sources */ = {
+		1332C2E4B1CA11AAF53F7F3B5CBDB1B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5499B7BD2AD680822697AD36B76734C /* NSObject+Property.m in Sources */,
-				962706E1966248EAD634C4F06E43CE01 /* NSString+STRegex.m in Sources */,
-				AC198D93B299D4B3C5DDE175D1739D08 /* UIFont+XRScale.m in Sources */,
-				079E417CE6FBBB817A57F706D4E25E4C /* UIImage+ReColor.m in Sources */,
-				509A669F06DA6BE89B74A7B62E5732D8 /* XRBaseViewController.m in Sources */,
-				9A0541AA52672E396D1B5F6A72F913A3 /* XROCSupport-dummy.m in Sources */,
-				813323059444E99BBAE9F56D48DEF956 /* XRTool.m in Sources */,
+				67115C5E43071ED1898AE5A7750069F9 /* NSObject+Property.m in Sources */,
+				55DD8467FD30E0BB40BC3CE7BBF9BA8F /* NSString+STRegex.m in Sources */,
+				5702CEBC1815A3BD29640062B87EAE65 /* UIFont+XRScale.m in Sources */,
+				A99246495E6F364E81E790FDCA59CF51 /* UIImage+ReColor.m in Sources */,
+				8A73EBF71030D2824E897BF4941FF06C /* XRBaseViewController.m in Sources */,
+				275FCB413F9D8C462E8D7DF7C15215B4 /* XROCSupport-dummy.m in Sources */,
+				357B2E0D6D0CAF4790C427D1E3E590A8 /* XRTool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -471,24 +479,24 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8866B3F09BB0E9D67948C02CC7660A08 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = XROCSupport;
-			target = 2A60C80E1D26B549B7FA2C2CE6AC1408 /* XROCSupport */;
-			targetProxy = C8C3D227EEE3E6B590634A8442B39996 /* PBXContainerItemProxy */;
-		};
-		8B84048CF14400EB820521D6783EAA55 /* PBXTargetDependency */ = {
+		7CF195BD752E6D740639196F6264C286 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-XROCSupport_Example";
 			target = 81FF143163E65768A5A46669E6FF83A8 /* Pods-XROCSupport_Example */;
-			targetProxy = F8B4F45F4258CC4A59E938827431A429 /* PBXContainerItemProxy */;
+			targetProxy = F45CC1F2D34DE0A1C0B180D591B090F6 /* PBXContainerItemProxy */;
+		};
+		F28582E6DBFF1558216C61F11D6CF8EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XROCSupport;
+			target = 2A60C80E1D26B549B7FA2C2CE6AC1408 /* XROCSupport */;
+			targetProxy = 807E0760EDA3DBB0A8B229B76B1DD6A1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		34215DD0D34F6ED5AFCD9C2953AF298C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 803AD423137965B7431ABDBC68B847A6 /* XROCSupport.release.xcconfig */;
+			baseConfigurationReference = DBBE0A36E0B1424667B4E77857E935DA /* XROCSupport.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -748,7 +756,7 @@
 		};
 		D941CC56091E7FD3ABF38FA7823093DD /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8B9998ACFE30E838D31AF04E0B1884F6 /* XROCSupport.debug.xcconfig */;
+			baseConfigurationReference = 69F513932A00F3348D0B6A8CA1292ECA /* XROCSupport.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

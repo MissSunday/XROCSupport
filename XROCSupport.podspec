@@ -7,39 +7,47 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'XROCSupport'
-  s.version          = '0.4.8'
-  s.summary          = '公有库使用'
-  s.description      = '创建、上传、pod、打包、脚本等'
-
-  s.homepage         = 'https://github.com/MissSunday/XROCSupport'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'MissSunday' => '963217127@qq.com' }
-  s.source           = { :git => 'https://github.com/MissSunday/XROCSupport.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '9.0'
-
-  s.source_files = 'XROCSupport/Classes/XROCSupport.h'
-  s.public_header_files = 'XROCSupport/Classes/**/*.h'
-  
-  s.subspec 'Base' do |ss|
-      
-      ss.source_files = 'XROCSupport/Classes/Base/*.{h,m}'
-      
-  end
-  
-  s.subspec 'Category' do |ss|
-      
-      ss.source_files = 'XROCSupport/Classes/Category/*.{h,m}'
-
-  end
-  # s.resource_bundles = {
-  #   'XROCSupport' => ['XROCSupport/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'XROCSupport/Classes/*.{h}'
-   s.frameworks = 'UIKit', 'ImageIO','Accelerate','Foundation'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'XROCSupport'
+    s.version          = '0.5.0'
+    s.summary          = '公有库使用'
+    s.description      = '创建、上传、pod、打包、脚本等'
+    
+    s.homepage         = 'https://github.com/MissSunday/XROCSupport'
+    # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'MissSunday' => '963217127@qq.com' }
+    s.source           = { :git => 'https://github.com/MissSunday/XROCSupport.git', :tag => s.version.to_s }
+    # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+    
+    s.ios.deployment_target = '9.0'
+    
+    s.source_files = 'XROCSupport/Classes/XROCSupport.h'
+    
+    
+    s.subspec 'A' do |ss|
+        
+        ss.source_files = 'XROCSupport/Classes/Tools/*'
+    end
+    
+    s.subspec 'Base' do |ss|
+        
+        ss.source_files = 'XROCSupport/Classes/Base/*'
+        ss.dependency 'XROCSupport/A'
+        
+    end
+    
+    s.subspec 'Category' do |ss|
+        
+        ss.source_files = 'XROCSupport/Classes/Category/*'
+        ss.dependency 'XROCSupport/A'
+        
+    end
+    
+    # s.resource_bundles = {
+    #   'XROCSupport' => ['XROCSupport/Assets/*.png']
+    # }
+    
+    # s.public_header_files = 'XROCSupport/Classes/*.{h}'
+    s.frameworks = 'UIKit', 'ImageIO','Accelerate','Foundation'
+    # s.dependency 'AFNetworking', '~> 2.3'
 end

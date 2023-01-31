@@ -6,7 +6,7 @@
 //
 
 #import "UIFont+XRScale.h"
-#import "XRPCH.h"
+
 
 
 @implementation UIFont (XRScale)
