@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '0.6.0'
+    s.version          = '1.0.0'
     s.summary          = '公有库使用'
     s.description      = '创建、上传、pod、打包、脚本等'
     
@@ -32,15 +32,19 @@ Pod::Spec.new do |s|
         ss.source_files = 'XROCSupport/Classes/Tools/*'
     end
     
+    s.subspec 'Category' do |ss|
+        ss.dependency 'XROCSupport/A'
+        ss.dependency 'XROCSupport/Resources'
+        ss.source_files = 'XROCSupport/Classes/Category/*'
+    end
+    
     s.subspec 'Base' do |ss|
         ss.dependency 'XROCSupport/A'
+        ss.dependency 'XROCSupport/Category'
         ss.source_files = 'XROCSupport/Classes/Base/XRBase*.{h,m}'
     end
     
-    s.subspec 'Category' do |ss|
-        ss.dependency 'XROCSupport/A'
-        ss.source_files = 'XROCSupport/Classes/Category/*'
-    end
+    
     
 #     s.resource_bundles = {
 #       'XROCSupport' => ['XROCSupport/Classes/Base/XROCSupport.bundle']

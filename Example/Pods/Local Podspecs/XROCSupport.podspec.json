@@ -1,6 +1,6 @@
 {
   "name": "XROCSupport",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "summary": "公有库使用",
   "description": "创建、上传、pod、打包、脚本等",
   "homepage": "https://github.com/MissSunday/XROCSupport",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MissSunday/XROCSupport.git",
-    "tag": "0.6.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "9.0"
@@ -36,22 +36,28 @@
       "source_files": "XROCSupport/Classes/Tools/*"
     },
     {
-      "name": "Base",
-      "dependencies": {
-        "XROCSupport/A": [
-
-        ]
-      },
-      "source_files": "XROCSupport/Classes/Base/XRBase*.{h,m}"
-    },
-    {
       "name": "Category",
       "dependencies": {
         "XROCSupport/A": [
 
+        ],
+        "XROCSupport/Resources": [
+
         ]
       },
       "source_files": "XROCSupport/Classes/Category/*"
+    },
+    {
+      "name": "Base",
+      "dependencies": {
+        "XROCSupport/A": [
+
+        ],
+        "XROCSupport/Category": [
+
+        ]
+      },
+      "source_files": "XROCSupport/Classes/Base/XRBase*.{h,m}"
     }
   ]
 }
