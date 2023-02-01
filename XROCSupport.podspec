@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '0.5.1'
+    s.version          = '0.6.0'
     s.summary          = '公有库使用'
     s.description      = '创建、上传、pod、打包、脚本等'
     
@@ -23,30 +23,29 @@ Pod::Spec.new do |s|
     
     s.source_files = 'XROCSupport/Classes/XROCSupport.h'
     
+    s.subspec 'Resources' do |ss|
+        ss.source_files = 'XROCSupport/Classes/Base/XRResourcesIndex.{h,m}'
+        ss.resources = 'XROCSupport/Classes/Base/XROCSupport.bundle'
+    end
     
     s.subspec 'A' do |ss|
-        
         ss.source_files = 'XROCSupport/Classes/Tools/*'
     end
     
     s.subspec 'Base' do |ss|
-        
         ss.dependency 'XROCSupport/A'
-        ss.source_files = 'XROCSupport/Classes/Base/*'
-        
+        ss.source_files = 'XROCSupport/Classes/Base/XRBase*.{h,m}'
     end
     
     s.subspec 'Category' do |ss|
-        
         ss.dependency 'XROCSupport/A'
         ss.source_files = 'XROCSupport/Classes/Category/*'
-        
     end
     
-    # s.resource_bundles = {
-    #   'XROCSupport' => ['XROCSupport/Assets/*.png']
-    # }
-    
+#     s.resource_bundles = {
+#       'XROCSupport' => ['XROCSupport/Classes/Base/XROCSupport.bundle']
+#     }
+
     # s.public_header_files = 'XROCSupport/Classes/*.{h}'
     s.frameworks = 'UIKit', 'ImageIO','Accelerate','Foundation'
     # s.dependency 'AFNetworking', '~> 2.3'

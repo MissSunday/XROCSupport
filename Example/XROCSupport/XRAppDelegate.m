@@ -7,12 +7,15 @@
 //
 
 #import "XRAppDelegate.h"
-
+#import "ATabBarViewController.h"
 @implementation XRAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    ATabBarViewController *tabbar = [[ATabBarViewController alloc] init];
+    self.window.rootViewController = tabbar;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
