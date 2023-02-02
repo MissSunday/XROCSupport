@@ -1,6 +1,6 @@
 {
   "name": "XROCSupport",
-  "version": "1.0.1",
+  "version": "1.0.2.d",
   "summary": "公有库使用",
   "description": "创建、上传、pod、打包、脚本等",
   "homepage": "https://github.com/MissSunday/XROCSupport",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MissSunday/XROCSupport.git",
-    "tag": "1.0.1"
+    "tag": "1.0.2.d"
   },
   "platforms": {
     "ios": "9.0"

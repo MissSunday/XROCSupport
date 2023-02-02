@@ -8,7 +8,10 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '1.0.1'
+    s.version          = '1.0.2'
+    if ENV['package']
+        s.version          = "#{s.version}.d"
+    end
     s.summary          = '公有库使用'
     s.description      = '创建、上传、pod、打包、脚本等'
     s.homepage         = 'https://github.com/MissSunday/XROCSupport'
