@@ -1,6 +1,6 @@
 {
   "name": "XROCSupport",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "summary": "公有库使用",
   "description": "创建、上传、pod、打包、脚本等",
   "homepage": "https://github.com/MissSunday/XROCSupport",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/MissSunday/XROCSupport.git",
-    "tag": "1.0.0"
+    "tag": "1.0.1"
   },
   "platforms": {
     "ios": "9.0"
@@ -25,6 +25,14 @@
     "Accelerate",
     "Foundation"
   ],
+  "pod_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ONLY_ACTIVE_ARCH": "YES"
+  },
+  "user_target_xcconfig": {
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "arm64",
+    "ONLY_ACTIVE_ARCH": "YES"
+  },
   "subspecs": [
     {
       "name": "Resources",

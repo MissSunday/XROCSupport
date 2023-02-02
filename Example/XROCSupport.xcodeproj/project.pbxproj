@@ -594,7 +594,7 @@
 			baseConfigurationReference = E0DAC7FDDB833001E5CDEC8C /* Pods-XROCSupport_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XROCSupport/XROCSupport-Prefix.pch";
 				INFOPLIST_FILE = "XROCSupport/XROCSupport-Info.plist";
@@ -618,7 +618,7 @@
 			baseConfigurationReference = C9A9BD0F3B768236DBE11628 /* Pods-XROCSupport_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				EXCLUDED_ARCHS = "";
+				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XROCSupport/XROCSupport-Prefix.pch";
 				INFOPLIST_FILE = "XROCSupport/XROCSupport-Info.plist";
