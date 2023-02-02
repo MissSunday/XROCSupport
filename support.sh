@@ -34,6 +34,7 @@ function  gitPodWork(){
   
   git clean -xfd
   rm -rf XROCSupport-*
+  rm -rf FrameWork-*
   cd $mainfilePath"/Example"
   package=1 source=1 pod update --no-repo-update
   resultCode=$?
@@ -43,6 +44,11 @@ function  gitPodWork(){
   #执行.d tag push
   pushGit "${versionTag}.d"
   pushTag "${versionTag}.d"
+  
+  #等一会
+  echo "push完tag 等15s时间 让远端更新"
+  sleep 15
+  
   #打包framework .d版本
   cd $mainfilePath
   package=1 source=1 pod package XROCSupport.podspec \
@@ -50,6 +56,9 @@ function  gitPodWork(){
   --no-mangle \
   --exclude-deps \
   --configuration=Release \
+  
+  errorCode=$?
+  errorShow $errorCode "打包失败了"  $LINENO
   
   mv XROCSupport-${versionTag}.d ./FrameWork-${versionTag}
   
