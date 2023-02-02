@@ -60,6 +60,7 @@ function  gitPodWork(){
   errorCode=$?
   errorShow $errorCode "打包失败了"  $LINENO
   
+  #这块经常打包出现失败，加了个延时好多了，也不知道咋回事
   sleep 5
   mv XROCSupport-${versionTag}.d ./FrameWork-${versionTag}
   

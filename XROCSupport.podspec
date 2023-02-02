@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '1.1.3'
+    s.version          = '1.1.4'
     if ENV['package']
         s.version          = "#{s.version}.d"
     end
