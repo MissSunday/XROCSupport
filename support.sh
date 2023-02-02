@@ -60,10 +60,11 @@ function  gitPodWork(){
   errorCode=$?
   errorShow $errorCode "打包失败了"  $LINENO
   
-  #mv XROCSupport-${versionTag}.d ./FrameWork-${versionTag}
+  sleep 5
+  mv XROCSupport-${versionTag}.d ./FrameWork-${versionTag}
   
-  #pushGit "${versionTag}"
-  #pushTag "${versionTag}"
+  pushGit "${versionTag}"
+  pushTag "${versionTag}"
 }
 function pushGit(){
 #    sleep 5s
