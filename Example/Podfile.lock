@@ -1,19 +1,19 @@
 PODS:
   - Masonry (1.1.0)
   - ReactiveObjC (3.1.1)
-  - XROCSupport (1.1.0.d):
-    - XROCSupport/A (= 1.1.0.d)
-    - XROCSupport/Base (= 1.1.0.d)
-    - XROCSupport/Category (= 1.1.0.d)
-    - XROCSupport/Resources (= 1.1.0.d)
-  - XROCSupport/A (1.1.0.d)
-  - XROCSupport/Base (1.1.0.d):
+  - XROCSupport (1.1.1.d):
+    - XROCSupport/A (= 1.1.1.d)
+    - XROCSupport/Base (= 1.1.1.d)
+    - XROCSupport/Category (= 1.1.1.d)
+    - XROCSupport/Resources (= 1.1.1.d)
+  - XROCSupport/A (1.1.1.d)
+  - XROCSupport/Base (1.1.1.d):
     - XROCSupport/A
     - XROCSupport/Category
-  - XROCSupport/Category (1.1.0.d):
+  - XROCSupport/Category (1.1.1.d):
     - XROCSupport/A
     - XROCSupport/Resources
-  - XROCSupport/Resources (1.1.0.d)
+  - XROCSupport/Resources (1.1.1.d)
 
 DEPENDENCIES:
   - Masonry (= 1.1.0)
@@ -32,7 +32,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  XROCSupport: 7c3eba86bb7f453aa93dd9c67e61b9558f0efca5
+  XROCSupport: 686083805dccd53ae2598cdda49f521fe66a6cc9
 
 PODFILE CHECKSUM: 7bce0464cea5fad4354d957b9f7b6c22e67c0cad
 

@@ -33,6 +33,7 @@ function  gitPodWork(){
   cd $mainfilePath
   
   git clean -xfd
+  rm -rf XROCSupport-*
   cd $mainfilePath"/Example"
   package=1 source=1 pod update --no-repo-update
   resultCode=$?
@@ -49,6 +50,8 @@ function  gitPodWork(){
   --no-mangle \
   --exclude-deps \
   --configuration=Release \
+  
+  mv XROCSupport-${versionTag}.d ./FrameWork-${versionTag}
   
   pushGit "${versionTag}"
   pushTag "${versionTag}"
