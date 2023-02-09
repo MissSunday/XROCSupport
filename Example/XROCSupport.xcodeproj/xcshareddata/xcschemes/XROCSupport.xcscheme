@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "2A60C80E1D26B549B7FA2C2CE6AC1408"
-               BuildableName = "XROCSupport"
+               BuildableName = "XROCSupport.framework"
                BlueprintName = "XROCSupport"
                ReferencedContainer = "container:Pods/Pods.xcodeproj">
             </BuildableReference>
