@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
-    s.version          = '1.1.5'
+    s.version          = '1.1.6'
     if ENV['package']
         s.version          = "#{s.version}.d"
     end
@@ -54,7 +54,7 @@ Pod::Spec.new do |s|
         #s.public_header_files = 'XROCSupport/Classes/**/*.h'
         #s.ios.vendored_libraries = "XROCSupport/Products/lib/lib#{s.name}.a"
         s.static_framework = true
-        s.vendored_frameworks = "XROCSupport-#{s.version}/ios/XROCSupport.framework"
+        s.vendored_frameworks = "FrameWork-#{s.version}/ios/XROCSupport.framework"
         s.resource = 'XROCSupport/Classes/Base/XROCSupport.bundle'
         
     end
