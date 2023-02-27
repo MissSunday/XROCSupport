@@ -21,6 +21,10 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		9C2B488029AC89FB00A7A4D1 /* buildbinary.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B487F29AC89FB00A7A4D1 /* buildbinary.sh */; };
+		9C2B488229AC8A2700A7A4D1 /* package.sh in Resources */ = {isa = PBXBuildFile; fileRef = 9C2B488129AC8A2700A7A4D1 /* package.sh */; };
+		9C91AEBF299A3703005D21C6 /* fishhook.c in Sources */ = {isa = PBXBuildFile; fileRef = 9C91AEBD299A3703005D21C6 /* fishhook.c */; };
+		9C91AECB299A4418005D21C6 /* XRHookTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C91AECA299A4418005D21C6 /* XRHookTool.m */; };
 		9CD1F112298A537A0047101A /* ATabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F111298A537A0047101A /* ATabBarViewController.m */; };
 		9CD1F11D298A54780047101A /* AViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F11B298A54780047101A /* AViewController.m */; };
 		9CD1F123298A54AA0047101A /* BViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD1F122298A54AA0047101A /* BViewController.m */; };
@@ -68,6 +72,12 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8357969BE67882D6641CA9B1 /* Pods_XROCSupport_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XROCSupport_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C2B487F29AC89FB00A7A4D1 /* buildbinary.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildbinary.sh; sourceTree = "<group>"; };
+		9C2B488129AC8A2700A7A4D1 /* package.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = package.sh; sourceTree = "<group>"; };
+		9C91AEBD299A3703005D21C6 /* fishhook.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fishhook.c; sourceTree = "<group>"; };
+		9C91AEBE299A3703005D21C6 /* fishhook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fishhook.h; sourceTree = "<group>"; };
+		9C91AEC9299A4418005D21C6 /* XRHookTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRHookTool.h; sourceTree = "<group>"; };
+		9C91AECA299A4418005D21C6 /* XRHookTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRHookTool.m; sourceTree = "<group>"; };
 		9CD1F110298A537A0047101A /* ATabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATabBarViewController.h; sourceTree = "<group>"; };
 		9CD1F111298A537A0047101A /* ATabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATabBarViewController.m; sourceTree = "<group>"; };
 		9CD1F11B298A54780047101A /* AViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AViewController.m; sourceTree = "<group>"; };
@@ -228,8 +238,14 @@
 		9CD1F11A298A54780047101A /* A */ = {
 			isa = PBXGroup;
 			children = (
+				9C2B487F29AC89FB00A7A4D1 /* buildbinary.sh */,
+				9C2B488129AC8A2700A7A4D1 /* package.sh */,
 				9CD1F11C298A54780047101A /* AViewController.h */,
 				9CD1F11B298A54780047101A /* AViewController.m */,
+				9C91AEC9299A4418005D21C6 /* XRHookTool.h */,
+				9C91AECA299A4418005D21C6 /* XRHookTool.m */,
+				9C91AEBE299A3703005D21C6 /* fishhook.h */,
+				9C91AEBD299A3703005D21C6 /* fishhook.c */,
 				9CD1F134298A5A180047101A /* RAC学习笔记 */,
 			);
 			path = A;
@@ -335,6 +351,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = ext.wangxiaoran3;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = WED6K5JJW6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -368,7 +387,9 @@
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				9C2B488029AC89FB00A7A4D1 /* buildbinary.sh in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				9C2B488229AC8A2700A7A4D1 /* package.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,7 +487,9 @@
 				9CD1F132298A591C0047101A /* XRCommonWebViewController.m in Sources */,
 				9CD1F126298A54B90047101A /* CViewController.m in Sources */,
 				9CD1F137298A5A320047101A /* RACVC.m in Sources */,
+				9C91AECB299A4418005D21C6 /* XRHookTool.m in Sources */,
 				9CD1F129298A54C70047101A /* DViewController.m in Sources */,
+				9C91AEBF299A3703005D21C6 /* fishhook.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +617,7 @@
 			baseConfigurationReference = E0DAC7FDDB833001E5CDEC8C /* Pods-XROCSupport_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WED6K5JJW6;
 				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XROCSupport/XROCSupport-Prefix.pch";
@@ -618,6 +642,7 @@
 			baseConfigurationReference = C9A9BD0F3B768236DBE11628 /* Pods-XROCSupport_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WED6K5JJW6;
 				EXCLUDED_ARCHS = arm64;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XROCSupport/XROCSupport-Prefix.pch";
