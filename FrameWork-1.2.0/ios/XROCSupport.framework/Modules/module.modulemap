@@ -1,0 +1,6 @@
+framework module XROCSupport {
+  umbrella header "XROCSupport.h"
+
+  export *
+  module * { export * }
+}
