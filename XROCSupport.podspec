@@ -5,10 +5,22 @@
 # Any lines starting with a # are optional, but their use is encouraged
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 # 学习 https://juejin.cn/post/7159494385204199437
-
+# chmod +x ./test.sh  #使脚本具有执行权限
 # pod lib lint
 # pod spec lint
 # pod trunk push
+# 查看库支持的架构 lipo -info xxx.framework/xxx    (路径是framework内部，.a貌似不用)
+
+# 把多架构拆成单一架构
+# 到framework里边
+# lipo JRRisk_Package -thin armv7 -output package_armv7.a
+# 然后拆解这个单架构
+# ar -x package_armv7.a
+
+# 切换Xcode
+# sudo xcode-select -s /Applications/Xcode.app/
+
+
 
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
