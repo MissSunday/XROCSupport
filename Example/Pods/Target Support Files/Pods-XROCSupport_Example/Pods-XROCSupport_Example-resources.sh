@@ -97,10 +97,10 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "${PODS_ROOT}/Tencent-MapSDK/sdk/QMapKit.framework/QMapKit.bundle"
+  install_resource "${PODS_ROOT}/../../XROCSupport/Classes/Base/XROCSupport.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "${PODS_ROOT}/Tencent-MapSDK/sdk/QMapKit.framework/QMapKit.bundle"
+  install_resource "${PODS_ROOT}/../../XROCSupport/Classes/Base/XROCSupport.bundle"
 fi
 
 mkdir -p "${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}"

@@ -10,7 +10,7 @@
 
 
 
-#import "XRTool.h"
+#import <XROCSupport/XRTool.h>
 
 //宏定义
 #define kStatuBarHeight [UIApplication sharedApplication].statusBarFrame.size.height

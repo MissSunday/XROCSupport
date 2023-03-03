@@ -8,14 +8,11 @@
 
 #import "AViewController.h"
 #import "RACVC.h"
-#import <CoreLocation/CoreLocation.h>
-#import <NetworkExtension/NetworkExtension.h>
 //#import "XRHookTool2.h"
 #import "XRHookTool.h"
 typedef void(^block)(NSString *str);
 
-@interface AViewController ()<CLLocationManagerDelegate>
-
+@interface AViewController ()
 @property(nonatomic,strong)UIView *bgView;
 
 @end
@@ -36,34 +33,13 @@ typedef void(^block)(NSString *str);
     
     [self.view addSubview:self.bgView];
     
-    CLLocationManager *locatonManager = [[CLLocationManager alloc]init];
-    
-    locatonManager.delegate = self;
-    
-    
-    
-    [locatonManager requestLocation];
-    
-    
-//    CLLocationDegrees lat = 12.1231231231;
-//    CLLocationDegrees log = 123.1231321;
-//
-//    CLLocation *lo = [[CLLocation alloc]init];
-//    if (lo.altitude == 0.0 || lo.verticalAccuracy == -1.0) {
-//        NSLog(@"定位信息已被篡改！");
-//    }
-    
+
   
     
     
     
 }
-- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray<CLLocation *> *)locations{
-    
-    
-    
-    
-}
+
 - (void)touchesEnded:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
     //[self.navigationController pushViewController:[RACVC new] animated:YES];
     
@@ -87,19 +63,6 @@ typedef void(^block)(NSString *str);
 
 
 
--(void)fff:(int)aaaa{
-    
-    if (![[[UIDevice currentDevice] systemVersion] floatValue] >= 9.0) {return;}
-        dispatch_queue_t queue = dispatch_queue_create("com.leopardpan.HotspotHelper", 0);
-        [NEHotspotHelper registerWithOptions:nil queue:queue handler: ^(NEHotspotHelperCommand * cmd) {
-            if(cmd.commandType == kNEHotspotHelperCommandTypeFilterScanList) {
-                for (NEHotspotNetwork* network  in cmd.networkList) {
-                    NSLog(@"network.SSID = %@",network.SSID);
-                }
-            }
-        }];
-    
-}
 
 
 

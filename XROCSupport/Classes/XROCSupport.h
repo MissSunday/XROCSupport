@@ -9,17 +9,17 @@
 #define XROCSupport_h
 
 //A
-#import "XRPCH.h"
+#import <XROCSupport/XRPCH.h>
 
 //Base
-#import "XRBaseViewController.h"
-#import "XRBaseNavigationController.h"
+#import <XROCSupport/XRBaseViewController.h>
+#import <XROCSupport/XRBaseNavigationController.h>
 
 //Category
-#import "NSObject+Property.h"
-#import "NSString+STRegex.h"
-#import "UIFont+XRScale.h"
-#import "UIImage+ReColor.h"
-#import "NSBundle+XRBundle.h"
+#import <XROCSupport/NSObject+Property.h>
+#import <XROCSupport/NSString+STRegex.h>
+#import <XROCSupport/UIFont+XRScale.h>
+#import <XROCSupport/UIImage+ReColor.h>
+#import <XROCSupport/NSBundle+XRBundle.h>
 
 #endif /* XROCSupport_h */
