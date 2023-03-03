@@ -6,6 +6,10 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 # 学习 https://juejin.cn/post/7159494385204199437
 
+# pod lib lint
+# pod spec lint
+# pod trunk push
+
 Pod::Spec.new do |s|
     s.name             = 'XROCSupport'
     s.version          = '1.2.0'
